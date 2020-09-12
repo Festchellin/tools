@@ -339,8 +339,20 @@ mv node-v12.18.3-linux-x64 node
 sudo mv node /opt/node
 
 #config the PATH env
-echo "NODE_HOME=/opt/node \
-	  PATH=\$PATH:\$NODE_HOME/bin" >> ~/.zshrc
+echo "export NODE_HOME=/opt/node \
+	  export PATH=\$PATH:\$NODE_HOME/bin" >> ~/.zshrc
 
 # make changes update
 source ~/.zshrc
+
+# install nrm
+npm install -g nrm
+# config nrm repository
+nrm add taobao "http://registry.npm.taobao.org/"
+nrm add npm 	"https://registry.npmjs.org/"
+
+# use taobao repository
+nrm use taobao
+# install angular & react cli
+npm install -g @angular/cli create-react-app
+
