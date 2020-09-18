@@ -1,3 +1,4 @@
+#!/bin/bash
 sudo apt-get install git zsh -y
 # config the git username and email
 git config --global user.name "Festchellin"

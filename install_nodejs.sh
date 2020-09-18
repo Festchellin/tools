@@ -1,3 +1,4 @@
+#!/bin/bash
 # install wget curl net-tools
 sudo apt-get install wget curl net-tools -y
 # config nodejs
