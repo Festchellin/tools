@@ -12,10 +12,10 @@ sudo mv node /opt/node
 
 #config the PATH env
 echo "export NODE_HOME=/opt/node \
-	  export PATH=\$PATH:\$NODE_HOME/bin" >> ~/.zshrc
+	  export PATH=\$PATH:\$NODE_HOME/bin" >> ~/.zshrc && source ~/.zshrc
 
 # make changes update
-source ~/.zshrc
+
 
 # install nrm
 npm install -g nrm

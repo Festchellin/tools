@@ -2,6 +2,6 @@
 ## include git vim zsh oh-my-zsh and nodejs
 
 ## usage
-1. bash config_env_ubuntu.sh
+1. bash set_tsinghua_mirror.sh
 2. bash install_*.sh
 3. ……
